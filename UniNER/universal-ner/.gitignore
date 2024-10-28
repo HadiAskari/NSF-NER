@@ -1,0 +1,8 @@
+*.pyc
+__pycache__/
+**/saved_models/
+fixed_hardware.pt
+fixed_software.pt
+fixed_vulnerability.pt
+UniNER/universal-ner/src/train/** */
+**/src/train/** */
