@@ -1,0 +1,24 @@
+Overall Span -> 
+Precision score: 0.8586885388944636
+Recall score: 0.8272876297759657
+F1 score: 0.8426956670662784
+              precision    recall  f1-score   support
+
+          NE    0.85869   0.82729   0.84270     47582
+
+   micro avg    0.85869   0.82729   0.84270     47582
+   macro avg    0.85869   0.82729   0.84270     47582
+weighted avg    0.85869   0.82729   0.84270     47582
+
+
+Overall -> 
+Precision score: 0.8586885388944636
+Recall score: 0.8272876297759657
+F1 score: 0.8426956670662784
+              precision    recall  f1-score   support
+
+      Device    0.85869   0.82729   0.84270     47582
+
+   micro avg    0.85869   0.82729   0.84270     47582
+   macro avg    0.85869   0.82729   0.84270     47582
+weighted avg    0.85869   0.82729   0.84270     47582

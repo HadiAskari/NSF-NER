@@ -1,0 +1,15 @@
+{
+    "raw":
+    {
+        "SOFTWARE": "SOFTWARE",
+        "HARDWARE": "HARDWARE",
+        "VULNERABILITY": "VULNERABILITY"
+    },
+    "full":
+    {
+        "SOFTWARE": "SOFTWARE",
+        "HARDWARE": "HARDWARE",
+        "VULNERABILITY": "VULNERABILITY"
+    }
+}
+

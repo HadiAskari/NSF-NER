@@ -1,0 +1,41 @@
+// {
+//     "raw":
+//     {
+//         "Application": "Application",
+//         "Library": "Library",
+//         "Operating_System": "Operating_System"
+//     },
+//     "full":
+//     {
+//         "Application": "application",
+//         "Library": "library",
+//         "Operating_System": "operating_System"
+//     }
+// }
+
+// {
+//     "raw":
+//     {
+//         "Software_Weakness": "Software_Weakness",
+//         "Hardware_Weakness": "Hardware_Weakness"
+//     },
+//     "full":
+//     {
+//         "Software_Weakness": "software_Weakness",
+//         "Hardware_Weakness": "hardware_Weakness"
+//     }
+// }
+
+
+// {
+//     "raw":
+//     {
+//         "Software_Weakness": "Software_Weakness",
+//         "Hardware_Weakness": "Hardware_Weakness"
+//     },
+//     "full":
+//     {
+//         "Software_Weakness": "software_Weakness",
+//         "Hardware_Weakness": "hardware_Weakness"
+//     }
+// }

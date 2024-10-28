@@ -1,0 +1,5 @@
+*.pyc
+__pycache__/
+model/
+cache/models--bert-large-cased
+WikiSER/training/cache/ner

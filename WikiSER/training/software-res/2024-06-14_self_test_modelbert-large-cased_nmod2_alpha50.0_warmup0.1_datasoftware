@@ -1,0 +1,26 @@
+Overall Span -> 
+Precision score: 0.8674691685844103
+Recall score: 0.8478965521219043
+F1 score: 0.8575711969012869
+              precision    recall  f1-score   support
+
+          NE    0.86747   0.84790   0.85757    173382
+
+   micro avg    0.86747   0.84790   0.85757    173382
+   macro avg    0.86747   0.84790   0.85757    173382
+weighted avg    0.86747   0.84790   0.85757    173382
+
+
+Overall -> 
+Precision score: 0.8560135916373676
+Recall score: 0.8369265552364143
+F1 score: 0.8463624751383794
+                  precision    recall  f1-score   support
+
+     Application    0.85318   0.83986   0.84647    142798
+         Library    0.77276   0.64697   0.70429      1929
+Operating_System    0.87549   0.83507   0.85481     28655
+
+       micro avg    0.85601   0.83693   0.84636    173382
+       macro avg    0.83381   0.77397   0.80186    173382
+    weighted avg    0.85598   0.83693   0.84627    173382
