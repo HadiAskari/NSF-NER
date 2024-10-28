@@ -1,4 +1,19 @@
-# NSF-NER
+# NSF-NER-RE
+
+
+**Infering the NER Models**
+
+The command to run the infer the NER Models can be found in the file UniNER/universal-ner/infer.sh . One needs to do the following changes:
+- Change model path to one of the following in the infer.sh file: hadiaskari98/Vulnerability_UniNER, hadiaskari98/Hardware_UniNER, or hadiaskari98/Software_UniNER.
+- Change the model/tokenizer path in the UniNER/universal-ner/WikiSER.py to one of the following: hadiaskari98/Vulnerability_NER_prod, hadiaskari98/Hardware_NER_prod, hadiaskari98/Software_NER_prod
+- Change line 41 in UniNER/universal-ner/src/serve/cli_ser_for_demo.py to one of the following: for text,entity_types_list in tqdm(zip([text_new],[['HARDWARE']])):, for text,entity_types_list in tqdm(zip([text_new],[['SOFTWARE']])):, for text,entity_types_list in tqdm(zip([text_new],[['VULNERABILITY']])):
+
+Sample command is given below:
+
+```
+python -m src.serve.cli_ser_for_demo --text_new "Software vulnerabilities, like buffer overflow and SQL injection flaw, can expose systems to severe security risks, allowing attackers to gain unauthorized access or execute malicious code." --model_path hadiaskari98/Vulnerability_UniNER  --tensor_parallel_size 1 --max_input_length 2048 --max_new_tokens 2048
+                                  
+
 
 
 **Relation Extraction**
