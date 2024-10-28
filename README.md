@@ -1,5 +1,8 @@
 # NSF-NER
 
+
+**Relation Extraction**
+
 The command to run the RE model is in run.sh. The following the a sample command with an article and 3 lists of named entities relating to Software, Hardware and Vulnerabilities:
 
 ```
