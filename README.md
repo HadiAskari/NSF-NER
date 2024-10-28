@@ -13,12 +13,12 @@ Sample command is given below:
 ```
 python -m src.serve.cli_ser_for_demo --text_new "Software vulnerabilities, like buffer overflow and SQL injection flaw, can expose systems to severe security risks, allowing attackers to gain unauthorized access or execute malicious code." --model_path hadiaskari98/Vulnerability_UniNER  --tensor_parallel_size 1 --max_input_length 2048 --max_new_tokens 2048
                                   
-
+```
 
 
 **Relation Extraction**
 
-The command to run the RE model is in run.sh. The following the a sample command with an article and 3 lists of named entities relating to Software, Hardware and Vulnerabilities:
+The command to run the RE model is in Relation_Extraction/run.sh. The following the a sample command with an article and 3 lists of named entities relating to Software, Hardware and Vulnerabilities:
 
 ```
 python -m script_llama3_hacker --text "The Microsoft Exchange Server has been a frequent target of cyber espionage campaigns, with zero-day vulnerabilities allowing attackers to compromise sensitive communication systems. Similarly, Fortinet FortiOS, the operating system for Fortinet security appliances, has faced vulnerabilities exploited by threat actors to bypass network protections, compromising connected hardware. These software and hardware platforms underscore the ongoing risks posed by unpatched vulnerabilities within critical enterprise environments." --software '["Microsoft Exchange Server", "Fortinet FortiOS"]' --hardware '["Fortinet security appliances"]' --vulnerability '["Zero-day vulnerabilities", "Unpatched vulnerabilities"]'
